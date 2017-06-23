@@ -42,7 +42,7 @@ function highlightIndex(){
     if(divArray[i].data("id") == index){
       divArray[i].addClass("highlight");
     } else {
-      divArray[i].remove Class("highlight");
+      divArray[i].removeClass("highlight");
 
     }
 
